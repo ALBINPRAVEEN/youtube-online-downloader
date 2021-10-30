@@ -1,0 +1,31 @@
+{
+  "name": "Darlington",
+  "version": "1.0.0",
+  "description": "youtube downloader website",
+  "main": "index.js",
+  "dependencies": {
+    "ffmpeg-static": "^4.2.7",
+    "fluent-ffmpeg": "^2.1.2",
+    "got": "^11.8.0",
+    "youtube-dl": "^3.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZauteKm/YouTube-Downloader.git"
+  },
+  "keywords": [
+    "youtube",
+    "downloader",
+    "ytdl"
+  ],
+  "author": "Zaute Km",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ZauteKm/YouTube-Downloader/issues"
+  },
+  "homepage": "https://github.com/ZauteKm/YouTube-Downloader#readme"
+}

@@ -1,0 +1,59 @@
+ <!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta name="robots" content="all" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      <link rel="shortcut icon" type="image/x-icon" href="https://m.youtube.com/static/favicon.ico">
+      <title>YouTube Downloader | ALBINPRAVEEN</title>
+      <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="web-content/css/style.css">
+      <style>
+         body{ background-color:#202020;}
+      </style>
+   </head>
+   <body>
+      <h1 style="color:orange; text-align:center; cursor: pointer;"><a href="https://t.me/ZauteKm">YouTube Downloader</a></h1>
+      <div>
+         <img class="mxl" src="https://i.ibb.co/LtZgDVj/youtube.png">
+      </div>
+      <br><br>
+      <h3 style="text-align: center; color: #FFB200; font-family: 'Balsamiq Sans', cursive; font-size: 17px;">Enter Your YouTube URL Here <br>And Click On Download</h3>
+      <br><br><br>
+      <div>
+      <center>
+      <div class="bar">
+         <input id="dl" autocomplete="off" class="searchbar" placeholder="Enter Your URL Here..." autocomplete="off">
+      </div>
+      <br>
+      <div id="formatSelect">
+            <img id="thumbnail">
+            <div id="formatButtonList"></div>
+      </div>
+      <div id="ldr" style="display:none;">
+                    <span class="cssload-loader"><span class="cssload-loader-inner"></span></span>
+                    <p style="color:white; text-align:center;" id="status">Loading...</p>
+                    <p id="statDeet"></p>
+                </div>
+                <div id="complete" style="display:none;">
+                    <h1 color:green; text-align:center;">✓</h1>
+                    <p style="color:orange; text-align:center;">Download is complete! The file will be removed in 30 minutes.</p>
+                    <a id="downloadLink"><button>Download</button></a>
+                    <button onclick="window.location.reload();">Restart</button>
+                </div>
+      <br><br>
+      <div id="downloadSnack">
+      <button onclick="download()" class="button">Download</button>
+      </div>
+      <br><br><br><br>
+      <br>
+      <footer class="footer">
+         <div class="container">
+            <span class="copyright"><a style="text-decoration: none; color: #9C9AB3;" href="https://t.me/ZauteKm">© 2021 ALBINPRAVEEN</a></span>
+         </div>
+      </footer>
+      <script src="web-content/js/home.js"></script>
+   </body>
+</html>
